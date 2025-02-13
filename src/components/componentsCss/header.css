@@ -1,0 +1,75 @@
+.header_body{
+    width: 100%;
+    height: max-content;
+    padding: 20px 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo_container{
+    width: max-content;
+    height: max-content;
+    padding: 2px;
+}
+
+.header_logo_container h3{
+    color: #fff;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header_logo_container h3 span{
+    color: blue;
+}
+
+.header_nav_container{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_nav_container, .menuNotActive, .menuActive{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: all 350ms ease-in-out;
+}
+
+.header_nav_container a:hover, .menuNotActive:hover{
+    color: blue;
+}
+
+.menuNotActive{
+    color: #e1e1e1;
+}
+
+.menuActive{
+    color: blue;
+}
+
+.header_contact_me_btn{
+    width: max-content;
+    height: max-content;
+    padding: 10px 30px;
+    color: blue;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 350ms ease-in-out;
+}
+
+.header_contact_me_btn:hover{
+    color: #fff !important;
+    background-color: blue;
+}
