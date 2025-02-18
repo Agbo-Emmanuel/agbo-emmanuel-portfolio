@@ -23,7 +23,7 @@
 }
 
 .header_logo_container h3 span{
-    color: blue;
+    color: green;
 }
 
 .header_nav_container{
@@ -43,7 +43,7 @@
 }
 
 .header_nav_container a:hover, .menuNotActive:hover{
-    color: blue;
+    color: green;
 }
 
 .menuNotActive{
@@ -51,19 +51,19 @@
 }
 
 .menuActive{
-    color: blue;
+    color: green;
 }
 
 .header_contact_me_btn{
     width: max-content;
     height: max-content;
     padding: 10px 30px;
-    color: blue;
+    color: green;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     background-color: transparent;
-    border: 1px solid blue;
+    border: 1px solid green;
     border-radius: 6px;
     text-decoration: none;
     transition: all 350ms ease-in-out;
@@ -71,5 +71,5 @@
 
 .header_contact_me_btn:hover{
     color: #fff !important;
-    background-color: blue;
+    background-color: green;
 }
