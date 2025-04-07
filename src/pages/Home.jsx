@@ -5,6 +5,8 @@ import { BsArrowRightCircleFill } from "react-icons/bs";
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithubSquare } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import ProjectCard from '../components/ProjectCard';
+import hero_image from '../assets/agbo_image.jpg';
 
 
 const Home = () => {
@@ -25,8 +27,8 @@ const Home = () => {
           </div>
         </article>
         <article className='hero_image_section_body'>
-
-        </article>
+          <img src={hero_image} alt=''/>
+        </article>      
       </section>
       <section className='tech_skill_section'>
         <article className='tech_skill_text_container'>
@@ -62,6 +64,27 @@ const Home = () => {
             <FaGithubSquare color='#fff' size={100}/>
             <p>Github</p>
           </div>
+        </article>
+      </section>
+      <section className='home_project_section'>
+        <article className='home_project_section_top'>
+          <h3>My Projects</h3>
+          <p>view some of my projects</p>
+        </article>
+        <article className='home_project_section_bottom'>
+          <ProjectCard/>
+        </article>
+      </section>
+      <section className='home_contact_section'>
+        <article className='home_contact_section_top'>
+          <h3>Get In Touch</h3>
+          <p>Contact me let's work together</p>
+        </article>
+        <article className='home_contact_section_bottom'>
+          <input type='text' placeholder='Your Name/Company'/>
+          <input type='text' placeholder='Your Email'/>
+          <textarea type='text' placeholder='Message'/>
+          <button>Contact</button>
         </article>
       </section>
     </main>

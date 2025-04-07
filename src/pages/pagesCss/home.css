@@ -10,20 +10,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 0px 60px 0px 60px;
+    padding: 0px 100px 0px 100px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 20px;
     /* background-color: red; */
 }
 
 .hero_text_section{
-    width: calc(50% - 50px);
+    width: 55%;
     height: 100%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding-top: 60px;
+    justify-content: center;
+    gap: 16px;
+    /* padding-top: 60px; */
 }
 
 .hero_text_section p{
@@ -109,13 +111,20 @@
 }
 
 .hero_image_section_body{
-    width: calc(50% - 100px);
-    height: 96%;
+    width: 450px;
+    height: 450px;
     margin-top: 30px;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid rgba(1, 63, 1, 0.623);
     box-shadow: 6px 1px 12px 1px rgba(3, 233, 3, 0.235);
+}
+
+.hero_image_section_body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .tech_skill_section{
@@ -187,4 +196,127 @@
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+}
+
+.home_project_section{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home_project_section_top{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+.home_project_section_top h3{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.home_project_section_top p{
+    color: #fff;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(270deg, rgb(28, 131, 28), rgb(95, 188, 95), rgb(224, 233, 224));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+}
+
+.home_project_section_bottom{
+    width: 100%;
+    height: max-content;
+}
+
+.home_contact_section{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.home_contact_section_top{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.home_contact_section_top h3{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.home_contact_section_top p{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: linear-gradient(270deg, rgb(28, 131, 28), rgb(95, 188, 95), rgb(224, 233, 224));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s infinite linear;
+}
+
+.home_contact_section_bottom{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.home_contact_section_bottom input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.home_contact_section_bottom textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.home_contact_section_bottom button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
 }

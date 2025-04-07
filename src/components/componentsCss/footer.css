@@ -1,0 +1,30 @@
+.footer_body{
+    width: 100%;
+    height: max-content;
+    padding: 40px 60px;
+    margin: 80px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(211, 211, 211, 0.561);
+}
+
+.footer_body p{
+    color: lightgrey;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.footer_link_container{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    gap: 6px;
+}
+
+.footer_link_container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 34px;
+}

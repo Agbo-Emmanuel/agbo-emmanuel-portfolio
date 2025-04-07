@@ -13,11 +13,12 @@ const Header = () => {
         <div className='header_nav_container'>
           <NavLink to="/" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Home</NavLink>
           <NavLink to="/about" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>About</NavLink>
+          <NavLink to="/about" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Skills</NavLink>
           <NavLink to="/projects" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Projects</NavLink>
-          <a className='menuNotActive' href=''>Resume</a>
+          {/* <a className='menuNotActive' href=''>Resume</a> */}
         </div>
         <div className='header_nav_container'>
-          <FaGithubSquare size={36} color='#fff'/>
+          <a href='https://github.com/Agbo-Emmanuel' target='_blank'><FaGithubSquare size={36} color='#fff'/></a>
           <a className='header_contact_me_btn' href=''>Contact me</a>
         </div>
       </div>
