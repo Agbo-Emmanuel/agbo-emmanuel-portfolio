@@ -7,11 +7,11 @@ import Footer from '../components/Footer'
 const Landing = () => {
   return (
     <>
-       <div className='landing_body'>
-            <Header/>
-            <Outlet/>
-            <Footer/>
-       </div>
+      <div className='landing_body'>
+        <Header/>
+        <Outlet/>
+        <Footer/>
+      </div>
     </>
   )
 }

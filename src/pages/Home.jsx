@@ -6,7 +6,7 @@ import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithubSquare } from "react-ico
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import ProjectCard from '../components/ProjectCard';
-import hero_image from '../assets/agbo_image.jpg';
+import main_image from '../assets/main_image2.jpeg';
 
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </article>
         <article className='hero_image_section_body'>
-          <img src={hero_image} alt=''/>
+          <img src={main_image} alt=''/>
         </article>      
       </section>
       <section className='tech_skill_section'>
