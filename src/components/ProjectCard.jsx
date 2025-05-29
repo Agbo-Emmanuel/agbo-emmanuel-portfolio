@@ -28,7 +28,7 @@ const ProjectCard = () => {
             image: amazing_healt_care_clinic_image,
             name: "Amazing Health Care Clinic",
             githubLink: "https://github.com/Agbo-Emmanuel/amazing-health-care-clinic-frontend",
-            link: "https://amazing-health-care-clinic-frontend.vercel.app/",
+            link: "https://www.amazinghealthcareclinic.org/",
             tech: [
                 {item: "ReactJS"},
                 {item: "Node JS"},
