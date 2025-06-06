@@ -17,7 +17,7 @@ const Home = () => {
           <p>Welcome to my site</p>
           <h1>Hi, I'm Agbo Emmanuel, a <span>Frontend developer</span></h1>
           <p>
-            I am a Dedicated Frontend Developer with 1+years of experience in software 
+            I am a Dedicated Frontend Developer with 2+years of experience in software 
             development,specializing in building responsive and user-friendly web applications. 
             Proficient in modern frameworks and technologies, I focus on creating seamless user experiences and optimized performance.
           </p>
@@ -37,31 +37,31 @@ const Home = () => {
         </article>
         <article className='tech_skill_items_container'>
           <div className='tech_skill'>
-            <FaHtml5 color='#fff' size={100}/>
+            <FaHtml5 color='#fff'/>
             <p>Html</p>
           </div>
           <div className='tech_skill'>
-            <FaCss3Alt color='#fff' size={100}/>
+            <FaCss3Alt color='#fff'/>
             <p>Css</p>
           </div>
           <div className='tech_skill'>
-            <IoLogoJavascript color='#fff' size={100}/>
+            <IoLogoJavascript color='#fff'/>
             <p>Javascript</p>
           </div>
           <div className='tech_skill'>
-            <FaReact color='#fff' size={100}/>
+            <FaReact color='#fff'/>
             <p>React</p>
           </div>
           <div className='tech_skill'>
-            <RiTailwindCssFill color='#fff' size={100}/>
+            <RiTailwindCssFill color='#fff'/>
             <p>Tailwind</p>
           </div>
           <div className='tech_skill'>
-            <FaGitAlt color='#fff' size={100}/>
+            <FaGitAlt color='#fff'/>
             <p>Git</p>
           </div>
           <div className='tech_skill'>
-            <FaGithubSquare color='#fff' size={100}/>
+            <FaGithubSquare color='#fff'/>
             <p>Github</p>
           </div>
         </article>

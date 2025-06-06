@@ -28,3 +28,15 @@
     color: #fff;
     font-size: 34px;
 }
+
+
+
+@media screen and (max-width: 768px){
+
+    .footer_body{
+        padding: 30px 16px;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+}

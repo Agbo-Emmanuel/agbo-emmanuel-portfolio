@@ -73,3 +73,22 @@
     color: #fff !important;
     background-color: green;
 }
+
+.bugger_menu_icon{
+    font-size: 34px;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .header_body{
+        padding: 20px 16px;
+    }
+
+    .header_nav_container{
+        display: none;
+    }
+
+}

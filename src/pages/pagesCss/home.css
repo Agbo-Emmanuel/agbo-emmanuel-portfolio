@@ -5,7 +5,7 @@
 
 .hero_section_body{
     width: 100%;
-    height: 85vh;
+    min-height: 85vh;
     background: linear-gradient(180deg, #1c1c1caf, #000), url("../../assets/hero_background_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
 
 .hero_text_section{
     width: 55%;
-    height: 100%;
+    min-height: 100%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@
 .hero_button_container{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     margin-top: 20px;
 }
@@ -189,6 +190,7 @@
     flex-direction: column;
     gap: 2px;
     text-align: center;
+    font-size: 120px;
 }
 
 .tech_skill p{
@@ -203,7 +205,7 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .home_project_section_top{
@@ -245,6 +247,7 @@
     align-items: center;
     margin-top: 60px;
     gap: 30px;
+    padding: 0 16px;
 }
 
 .home_contact_section_top{
@@ -319,4 +322,77 @@
     font-weight: 500;
     cursor: pointer;
     border: none;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .hero_section_body{
+        padding: 0px 16px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hero_text_section{
+        width: 100%;
+    }
+
+    .hero_text_section h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .hero_button_container{
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .hero_image_section_body{
+        width: 300px;
+        height: 300px;
+    }
+
+    .tech_skill_section{
+        padding: 0px 16px;
+        gap: 30px;
+    }
+
+    .tech_skill_text_container{
+        gap: 6px;
+    }
+
+    .tech_skill_text_container h3{
+        font-size: 30px;
+    }
+
+    .tech_skill_text_container p{
+        font-size: 22px;
+    }
+
+    .tech_skill_items_container{
+        gap: 40px;
+    }
+
+    .tech_skill{
+        gap: 4px;
+        font-size: 80px;
+    }
+
+    .home_project_section_top h3{
+        font-size: 30px;
+    }
+
+    .home_project_section_top p{
+        font-size: 20px;
+    }
+
+    .home_contact_section_top h3{
+        font-size: 30px;
+    }
+
+    .home_contact_section_bottom{
+        width: 100%;
+    }
+
 }

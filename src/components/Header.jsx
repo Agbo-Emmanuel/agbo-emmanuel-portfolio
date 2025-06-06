@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './componentsCss/header.css'
 import { NavLink } from 'react-router-dom'
 import { FaGithubSquare } from "react-icons/fa";
+import { IoMdMenu, IoMdClose  } from "react-icons/io";
 
 const Header = () => {
+
+  const [showMenu, setShowMenu] = useState(false)
+
   return (
     <>
       <div className='header_body'>
@@ -20,6 +24,11 @@ const Header = () => {
         <div className='header_nav_container'>
           <a href='https://github.com/Agbo-Emmanuel' target='_blank'><FaGithubSquare size={36} color='#fff'/></a>
           <a className='header_contact_me_btn' href=''>Contact me</a>
+        </div>
+        <div className='bugger_menu_icon' onClick={()=>setShowMenu(!showMenu)}>
+          {
+            showMenu ? <IoMdClose/> : <IoMdMenu/>
+          }
         </div>
       </div>
     </>
