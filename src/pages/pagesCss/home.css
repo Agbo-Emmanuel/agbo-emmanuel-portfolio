@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 10px;
     /* padding-top: 60px; */
 }
 
@@ -39,14 +39,17 @@
 
 .hero_text_section h1{
     color: #fff;
-    font-size: 36px;
+    font-size: 38px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 44px;
 }
 
-.hero_text_section h1 span{
+.hero_text_section h3{
     color: green;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 .hero_button_container{

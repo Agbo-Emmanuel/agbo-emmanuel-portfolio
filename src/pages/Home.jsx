@@ -15,7 +15,8 @@ const Home = () => {
       <section className='hero_section_body'>
         <article className='hero_text_section'>
           <p>Welcome to my site</p>
-          <h1>Hi, I'm Agbo Emmanuel, a <span>Frontend developer</span></h1>
+          <h1>Hi, I'm Agbo Emmanuel</h1>
+          <h3>Frontend developer</h3>
           <p>
             I am a Dedicated Frontend Developer with 2+years of experience in software 
             development,specializing in building responsive and user-friendly web applications. 

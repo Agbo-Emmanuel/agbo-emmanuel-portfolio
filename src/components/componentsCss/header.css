@@ -77,6 +77,7 @@
 .bugger_menu_icon{
     font-size: 34px;
     color: #fff;
+    display: none;
 }
 
 
@@ -85,6 +86,10 @@
 
     .header_body{
         padding: 20px 16px;
+    }
+
+    .bugger_menu_icon {
+        display: flex;
     }
 
     .header_nav_container{
